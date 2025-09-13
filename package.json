@@ -1,0 +1,17 @@
+{
+  "name": "outlast-shared",
+  "version": "0.1.0",
+  "description": "Shared TypeScript library for Outlast Battle Royale MVP (client/server)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts"
+  },
+  "author": "08harshit",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0"
+  }
+}
